@@ -12,7 +12,7 @@ D=D+1 //by making adding 1 if its -32768 it becomes 0 and we can check for that
 @NOERROR //seeing if no error, in other words its not 0
 D;JNE // if its not zero it jumps to label NOERROR
 @R3 // loading 3 into a
-M=1// if it is error then we have to set it to 1
+M=1 // if it is error then we have to set it to 1
 @R0 //loading 0 into a
 D=M // loadint x into D
 @R1 // loading 1 into a
