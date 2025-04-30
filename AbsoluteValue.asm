@@ -25,10 +25,10 @@ D=M // regetting the d value
 D=-D // making it posative 
 @R1 // loading r1 into a
 M=D // loading the new value into r1
-@END end this route
-0;JMP jumping to end
-(POS) if its posative
-@R0 loading r0 into a 
+@END //end this route
+0;JMP //jumping to end
+(POS) //if its posative
+@R0 // loading r0 into a 
 D=M // regetting d 
 @R1 // loading r1 into 
 M=D // loading the posative d straight into r1
